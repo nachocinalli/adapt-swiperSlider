@@ -1,0 +1,450 @@
+[
+  {
+    "_id": "c-01",
+    "_parentId": "b-01",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper autoPlay",
+    "displayTitle": "Swiper autoPlay",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "slidesPerView": 1,
+      "spaceBetween": 20,
+      "effect": "slide",
+      "autoplay": {
+        "delay": 2500,
+        "disableOnInteraction": false
+      },
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "bullets",
+        "clickable": true
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-02",
+    "_parentId": "b-02",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Fraction",
+    "displayTitle": "Swiper Fraction",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "fraction"
+      },
+      "navigation": {
+        "nextEl": ".swiper-button-next",
+        "prevEl": ".swiper-button-prev"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-03",
+    "_parentId": "b-03",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Progressbar",
+    "displayTitle": "Swiper Progressbar",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "slidesPerView": 1,
+      "spaceBetween": 20,
+      "effect": "slide",
+
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "progressbar"
+      },
+      "navigation": {
+        "nextEl": ".swiper-button-next",
+        "prevEl": ".swiper-button-prev"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-04",
+    "_parentId": "b-04",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Cards",
+    "displayTitle": "Swiper Cards",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "slidesPerView": 1,
+      "spaceBetween": 20,
+      "effect": "cards",
+      "grabCursor": true
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Cube",
+    "displayTitle": "Swiper Cube",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "effect": "cube",
+      "grabCursor": true
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-06",
+    "_parentId": "b-06",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Fade",
+    "displayTitle": "Swiper Fade",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "effect": "fade",
+      "grabCursor": true,
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "bullets"
+      },
+      "navigation": {
+        "nextEl": ".swiper-button-next",
+        "prevEl": ".swiper-button-prev"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-07",
+    "_parentId": "b-07",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper slidesPerView",
+    "displayTitle": "Swiper slidesPerView",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "slidesPerView": 3,
+      "grabCursor": true,
+      "spaceBetween": 30,
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "bullets",
+        "clickable": true
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-08",
+    "_parentId": "b-08",
+    "_type": "component",
+    "_component": "swiperSlider",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Swiper Coverflow",
+    "displayTitle": "Swiper Coverflow",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Item title 1",
+        "body": "<p>Item body 1</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 2",
+        "body": "<p>Item body 2</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      },
+      {
+        "title": "Item title 3",
+        "body": "<p>Item body 3</p>",
+        "bodyAfter": "",
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        }
+      }
+    ],
+    "_swiperOptions": {
+      "effect": "coverflow",
+      "grabCursor": true,
+      "centeredSlides": true,
+      "slidesPerView": "auto",
+      "coverflowEffect": {
+        "rotate": 50,
+        "stretch": 0,
+        "depth": 100,
+        "modifier": 1,
+        "slideShadows": true
+      },
+      "pagination": {
+        "el": ".swiper-pagination",
+        "type": "bullets",
+        "clickable": true
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  }
+]
