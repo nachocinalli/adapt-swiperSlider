@@ -1,0 +1,122 @@
+{
+  "$anchor": "swiper-component",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$merge": {
+    "source": {
+      "$ref": "component"
+    },
+    "with": {
+      "properties": {
+        "_supportedLayout": {
+          "type": "string",
+          "title": "Supported layout",
+          "default": "both",
+          "enum": ["full-width", "half-width", "both"],
+          "_adapt": {
+            "editorOnly": true
+          }
+        },
+        "instruction": {
+          "type": "string",
+          "title": "Instruction",
+          "default": "",
+          "_adapt": {
+            "translatable": true
+          }
+        },
+        "_setCompletionOn": {
+          "type": "string",
+          "title": "Completion criteria",
+          "description": "Whether completion is based on the learner having viewed all the items - or just having viewed the component",
+          "default": "allItems",
+          "enum": ["inview", "allItems"],
+          "_backboneForms": "Select"
+        },
+        "_items": {
+          "type": "array",
+          "title": "Items",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "title": "Title",
+                "description": "",
+                "default": "",
+                "_adapt": {
+                  "translatable": true
+                }
+              },
+
+              "body": {
+                "type": "string",
+                "title": "Body",
+                "default": "",
+                "_adapt": {
+                  "translatable": true
+                },
+                "_backboneForms": "TextArea"
+              },
+              "bodyAfter": {
+                "type": "string",
+                "title": "Body after",
+                "default": "",
+                "_adapt": {
+                  "translatable": true
+                },
+                "_backboneForms": "TextArea"
+              },
+              "_graphic": {
+                "type": "object",
+                "title": "Graphic",
+                "default": {},
+                "required": [],
+                "properties": {
+                  "src": {
+                    "type": "string",
+                    "isObjectId": true,
+                    "title": "Source",
+                    "_backboneForms": {
+                      "type": "Asset",
+                      "media": "image"
+                    }
+                  },
+                  "alt": {
+                    "type": "string",
+                    "title": "Alternative text",
+                    "description": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank",
+                    "default": "",
+                    "_adapt": {
+                      "translatable": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_swiperOptions": {
+          "type": "object",
+          "title": "Swiper options",
+          "description": "Optional object that can be used to customize the swiper options. See https://swiperjs.com/swiper-api for more information.",
+          "default": {
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            },
+            "navigation": {
+              "nextEl": ".swiper-button-next",
+              "prevEl": ".swiper-button-prev"
+            }
+          },
+          "_backboneForms": {
+            "type": "CodeEditor",
+            "mode": "json"
+          }
+        }
+      }
+    }
+  }
+}

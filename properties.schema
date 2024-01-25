@@ -1,0 +1,135 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "http://jsonschema.net",
+	"$ref": "http://localhost/plugins/content/component/model.schema",
+	"globals": {
+		"ariaRegion": {
+			"type": "string",
+			"required": true,
+			"default": "",
+			"inputType": "Text",
+			"validators": [],
+			"translatable": true
+		}
+	},
+	"properties": {
+		"_supportedLayout": {
+			"type": "string",
+			"required": true,
+			"enum": ["full-width", "half-width", "both"],
+			"default": "both",
+			"editorOnly": true
+		},
+		"instruction": {
+			"type": "string",
+			"required": false,
+			"default": "",
+			"inputType": "Text",
+			"validators": [],
+			"help": "This is the instruction text",
+			"translatable": true
+		},
+    "_setCompletionOn": {
+      "type": "string",
+      "required": false,
+      "default": "allItems",
+      "title": "Set completion on:",
+      "enum": ["inview", "allItems"],
+      "inputType": {
+        "type": "Select",
+        "options": ["inview", "allItems"]
+      },
+      "validators": [],
+      "help": "Whether completion is based on the learner having viewed all the items - or just having viewed the component"
+    },
+		"_items": {
+			"type": "array",
+			"required": false,
+			"title": "Swiper items",
+			"items": {
+				"type": "object",
+				"required": false,
+				"properties": {
+					"title": {
+						"type": "string",
+						"required": false,
+						"default": "",
+						"title": "Item title",
+						"inputType": "Text",
+						"validators": [],
+						"help": "",
+						"translatable": true
+					},
+
+					"body": {
+						"type": "string",
+						"required": false,
+						"default": "",
+						"title": "Item body",
+						"inputType": "TextArea",
+						"validators": [],
+						"help": "",
+						"translatable": true
+					},
+					"bodyAfter": {
+						"type": "string",
+						"required": false,
+						"default": "",
+						"title": "Item body after",
+						"inputType": "TextArea",
+						"validators": [],
+						"help": "",
+						"translatable": true
+					},
+					"_graphic": {
+						"type": "object",
+						"title": "Item graphic",
+						"properties": {
+							"src": {
+								"type": "string",
+								"required": false,
+								"default": "",
+								"title": "Select Graphic",
+								"inputType": "Asset:image",
+								"validators": [],
+								"help": ""
+							},
+							"alt": {
+								"type": "string",
+								"required": false,
+								"default": "",
+								"title": "Alternative Text",
+								"inputType": "Text",
+								"validators": [],
+								"help": "A description of the image; required when it has meaning that must be conveyed to the learner. For 'decorative' images, leave this blank.",
+								"translatable": true
+							}
+						}
+					}
+				}
+			}
+		},
+		"_swiperOptions": {
+			"type": "object",
+			"default": {
+        "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+        },
+        "navigation": {
+          "nextEl": ".swiper-button-next",
+          "prevEl": ".swiper-button-prev"
+        }
+      },
+			"title": "Swiper Options",
+			"inputType": {
+				"type": "CodeEditor",
+				"mode": "json"
+			},
+			"validators": [],
+			"help": "Optional object that can be used to customize the swiper options. See https://swiperjs.com/swiper-api for more information."
+		}
+	}
+}

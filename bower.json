@@ -1,0 +1,15 @@
+{
+  "name": "adapt-swiperSlider",
+  "version": "1.0.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/nachocinalli/adapt-swiperSlider",
+  "bugs": "https://github.com/nachocinalli/swiperSlider/issues",
+  "component": "swiperSlider",
+  "targetAttribute": "_swiperSlider",
+  "displayName": "SwiperSlider",
+  "description": "A swiperSlider adapt component",
+  "main": "/js/adapt-swiperSlider.js",
+  "keywords": ["adapt-plugin", "adapt-component"],
+  "license": "GPL-3.0",
+  "private": true
+}
